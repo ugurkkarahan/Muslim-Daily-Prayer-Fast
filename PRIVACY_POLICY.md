@@ -29,7 +29,7 @@ This data is stored only on your device and is not shared with third parties.
 |------|---------|
 | Address | Calculating iftar and sahur times (Aladhan API) |
 | Advertising ID | Personalized ads (if you consent) |
-| Notification permission | Iftar, sahur, and daily prayer reminders |
+| Notification permission | Iftar, sahur, daily prayer times, daily dua & verse, dhikr reminder, and Friday prayer reminder |
 
 ## 3. Third-Party Services
 
@@ -45,30 +45,43 @@ Prayer times are calculated via [Aladhan API](https://aladhan.com/). Your select
 
 Location search uses Apple's MapKit (MKLocalSearchCompleter) service. Search queries are sent to Apple.
 
-## 4. Notifications
+## 4. In-App Purchases and Subscriptions
 
-The app sends local notifications:
+The app offers optional in-app purchases and auto-renewable subscriptions (e.g. Premium) through the Apple App Store. All payments are processed by Apple. We do not collect, store, or have access to your payment information (such as credit card details). Your purchase and subscription history are managed by Apple. To view, cancel, or manage subscriptions, use your device’s **Settings → Apple ID → Subscriptions**. For more information, see [Apple’s support page](https://support.apple.com/HT202039) on managing subscriptions.
 
+## 5. Notifications
+
+The app may send local notifications for the following. You can enable or disable each type in **Settings → Notifications** within the app.
+
+**Ramadan (iftar & sahur):**
 - 2 hours, 1 hour, and 30 minutes before iftar
 - 2 hours, 1 hour, and 30 minutes before sahur
 - Greeting at iftar time ("May God Accept")
-- Daily prayer reminder at 12:00 PM
+- Optional greeting when Ramadan ends (Eid)
 
-Notification permission is optional; you can disable it in system Settings.
+**Prayer times:** At the start of each prayer time (Fajr, Sunrise, Dhuhr, Asr, Maghrib, Isha) for your selected location.
 
-## 5. Data Security
+**Daily Dua and Daily Verse:** A reminder at 12:00 PM to read the day’s dua and Quran verse.
+
+**Dhikr (Zikir) reminder:** A reminder at 10:00 AM to do your dhikr.
+
+**Friday prayer:** A reminder 1 hour before Friday (Jumu’ah) prayer time.
+
+Notification permission is optional. You can turn off the app’s notifications in your device’s **Settings → Notifications** or manage each type in the app’s **Settings → Notifications**.
+
+## 6. Data Security
 
 - Address and preferences are stored unencrypted in UserDefaults on your device.
 - Advertising data is processed on Google's servers.
 
-## 6. Children's Privacy
+## 7. Children's Privacy
 
 The app does not knowingly collect data from users under 13 years of age.
 
-## 7. Changes
+## 8. Changes
 
 When this policy is updated, changes will be reflected on this page. We may send in-app notifications for significant changes.
 
-## 8. Contact
+## 9. Contact
 
-For questions: [GitHub Issues](https://github.com/ugurkkarahan/Muslim-Daily-Prayer-Fast/issues)
+For questions: [GitHub Issues](https://github.com/ugurkkarahan/Muslim-Daily-Prayer-Fast/issues) or 
