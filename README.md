@@ -56,7 +56,6 @@ Widget content requires Premium.
 - **Core Location** — Qibla direction, user location for mosque search
 - **User Notifications** — Local notifications
 - **WidgetKit** — Home and lock screen widgets (App Group for data sharing)
-```
 
 ## Support
 
@@ -65,3 +64,4 @@ For questions or issues, please open an issue at [GitHub Issues](https://github.
 ## Privacy
 
 See [PRIVACY_POLICY.md](PRIVACY_POLICY.md) for our privacy policy.
+```
